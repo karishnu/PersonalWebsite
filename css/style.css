@@ -173,13 +173,17 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	background: url(../img/intro-bg.jpg) no-repeat center top;
+	background: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+    ), url(../img/intro.gif) no-repeat center top;
 	background-color: #7bc3d1;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 }
+
 .section-title.center {
 	padding: 25px 0 45px 0;
 }
@@ -321,6 +325,23 @@ ol.type li a:hover {
 	-o-transition: all 0.5s ease-out;
 	transition: all 0.5s ease-out;
 }
+
+.portfolio-itm {
+	width: 100%;
+}
+
+.portfolio-image {
+	float: left;
+	width: 40%;
+	display: inline;
+}
+
+.portfolio-text {
+	float: right;
+	width: 55%;
+	display: inline;
+}
+
 .portfolio-item:hover {
 	-webkit-transform: scale(1.1);
 	-moz-transform: scale(1.1);
@@ -648,6 +669,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro .name {
 	font-weight: 600;
 }
+
 .intro .intro-text {
 	max-width: 75%;
 }
