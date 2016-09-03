@@ -321,6 +321,23 @@ ol.type li a:hover {
 	-o-transition: all 0.5s ease-out;
 	transition: all 0.5s ease-out;
 }
+
+.portfolio-itm {
+	width: 100%;
+}
+
+.portfolio-image {
+	float: left;
+	width: 40%;
+	display: inline;
+}
+
+.portfolio-text {
+	float: right;
+	width: 55%;
+	display: inline;
+}
+
 .portfolio-item:hover {
 	-webkit-transform: scale(1.1);
 	-moz-transform: scale(1.1);
